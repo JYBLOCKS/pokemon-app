@@ -8,7 +8,6 @@ export default async function Pokemon({
   };
 }) {
   const info = await fetchGetPokemonInformation(searchParams?.name ?? "");
-  console.log(info)
   return (
     <div>
       <p>{info.name}</p>
