@@ -26,6 +26,7 @@ export interface PokemonInfo {
   stats: Stats[];
   types: Types[];
   weight: number;
+  color: string;
 }
 
 export interface Ability {

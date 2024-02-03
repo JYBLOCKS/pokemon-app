@@ -10,11 +10,14 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.1.1",
-    "color.js": "^1.2.0",
+    "colors": "^1.4.0",
     "next": "14.0.4",
-    "node-vibrant": "^3.1.6",
+    "node-fetch": "^3.3.2",
+    "node-vibrant": "^3.2.1-alpha.1",
     "react": "^18",
     "react-dom": "^18",
+    "sharp": "^0.33.2",
+    "swr": "^2.2.4",
     "use-debounce": "^10.0.0",
     "zod": "^3.22.4"
   },

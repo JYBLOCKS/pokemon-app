@@ -24,7 +24,7 @@ export default async function Home({
           {getPokemons
             .filter((item) => item.name.includes(pokemonSearchName))
             .map((item) => (
-              <Pokemon_Card key={item.name} name={item.name} url={item.url}  />
+              <Pokemon_Card key={item.name} pokemon={item} />
             ))}
         </Suspense>
       </div>

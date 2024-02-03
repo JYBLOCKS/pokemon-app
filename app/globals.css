@@ -15,6 +15,9 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+html{
+  cursor: url('https://cdn.custom-cursor.com/db/250/32/arrow2282.png'), auto;
+}
 
 body {
   color: rgb(var(--foreground-rgb));
