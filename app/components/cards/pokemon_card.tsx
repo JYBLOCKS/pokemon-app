@@ -1,4 +1,4 @@
-import { PokemonInfo } from "@/app/lib/models/definitions";
+import { PokemonInfo } from "@/lib/models/definitions";
 import styles from "./pokemon_card.module.css";
 import Link from "next/link";
 

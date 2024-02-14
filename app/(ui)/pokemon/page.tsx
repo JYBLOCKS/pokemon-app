@@ -1,6 +1,5 @@
-import { fetchGetPokemonInformation } from '@/app/services/fetchPokemons';
+import { fetchGetPokemonInformation } from '@/services/fetchPokemons';
 import styles from './pokemon.module.css';
-import { block } from 'sharp';
 export default async function Pokemon({
   searchParams
 }: {
